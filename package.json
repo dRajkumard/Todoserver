@@ -1,12 +1,6 @@
 {
   "name": "@my-service/server",
   "private": true,
-  "main":"main.ts",
-  "version":"1.0.0",
-  "engines":{
-    "node":"14.x"
-  },
-
   "scripts": {
     "start": "nest start",
     "start:watch": "nest start --watch",

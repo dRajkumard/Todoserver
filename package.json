@@ -2,10 +2,11 @@
   "name": "@my-service/server",
   "private": true,
   "scripts": {
+    
     "start": "nest start",
     "start:watch": "nest start --watch",
     "start:debug": "nest start --debug --watch",
-    "build": "nest build",
+    "build": "[my-framework] build --output public",
     "test": "jest",
     "seed": "ts-node scripts/seed.ts",
     "db:migrate-save": "prisma migrate dev",
